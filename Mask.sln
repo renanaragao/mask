@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31313.79
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mask", "Mask\Mask.csproj", "{DDF88365-3F58-48AD-94D6-DC0F6BCC79FF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mask.Tests", "Mask.Tests\Mask.Tests.csproj", "{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DDF88365-3F58-48AD-94D6-DC0F6BCC79FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDF88365-3F58-48AD-94D6-DC0F6BCC79FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDF88365-3F58-48AD-94D6-DC0F6BCC79FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDF88365-3F58-48AD-94D6-DC0F6BCC79FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A2870BA3-61AC-476A-8E38-B9B501225EA7}
+	EndGlobalSection
+EndGlobal

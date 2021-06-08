@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <Authors>Renan Aragão</Authors>
+    <Description>Extension method for making string masks in CSharp.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/renanaragao/mask</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/renanaragao/mask</RepositoryUrl>
+    <PackageTags>string mask masked</PackageTags>
+  </PropertyGroup>
+
+</Project>
