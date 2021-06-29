@@ -1,5 +1,3 @@
-[![CI](https://github.com/renanaragao/mask/actions/workflows/main.yml/badge.svg)](https://github.com/renanaragao/mask/actions/workflows/main.yml)
-
 # Mask
 Extension method for making string masks in CSharp.
 
