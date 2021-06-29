@@ -10,7 +10,7 @@ namespace Mask
         public static string ToMasked(this string value, string mask)
         {
             var masks = mask.ToArray();
-            var chars = new Queue<char>(value.ToArray());
+            var chars = value.GetEnumerator();
             char[] tokens = new char[] { 'A', 'S', '0', '9' };
             var newValue = new StringBuilder();
 
@@ -18,8 +18,9 @@ namespace Mask
             {
                 if (tokens.Contains(item))
                 {
-                    newValue.Append(chars.Dequeue());
-
+                    if(chars.MoveNext()){
+                        newValue.Append(chars.Current);
+                    }
                     continue;
                 }
 

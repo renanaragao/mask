@@ -15,5 +15,11 @@ namespace Mask.Tests
         {
             Assert.Equal(expected, value.ToMasked(mask));
         }
+
+        [Fact]
+        public void Should_Make_Mask_For_Cellphone()
+        {
+            Assert.Equal("(11) 98564-4568", "11985644568".ToMasked("(AA) AAAAA-AAAA"));
+        }
     }
 }

@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mask", "Mask\Mask.csproj", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mask.Tests", "Mask.Tests\Mask.Tests.csproj", "{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mask.benchmark", "Mask.benchmark\Mask.benchmark.csproj", "{F8C3949E-6651-44A7-877C-CCF9F46EDAFD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{73B138CE-ABEC-4D5D-8D0B-6F0F93F10934}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8C3949E-6651-44A7-877C-CCF9F46EDAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8C3949E-6651-44A7-877C-CCF9F46EDAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8C3949E-6651-44A7-877C-CCF9F46EDAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8C3949E-6651-44A7-877C-CCF9F46EDAFD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

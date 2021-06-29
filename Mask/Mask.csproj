@@ -7,7 +7,7 @@
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/renanaragao/mask</PackageProjectUrl>
     <RepositoryUrl>https://github.com/renanaragao/mask</RepositoryUrl>
-    <PackageTags>string mask masked</PackageTags>
+    <PackageTags>string mask masked text masked</PackageTags>
   </PropertyGroup>
 
 </Project>
