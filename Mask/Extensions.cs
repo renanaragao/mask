@@ -9,6 +9,9 @@ namespace Mask
     {
         public static string ToMasked(this string value, string mask)
         {
+            if (string.IsNullOrWhiteSpace(mask))
+                return value;
+
             var masks = mask.ToArray();
             var chars = value.GetEnumerator();
             char[] tokens = new char[] { 'A', 'S', '0', '9' };
@@ -18,7 +21,8 @@ namespace Mask
             {
                 if (tokens.Contains(item))
                 {
-                    if(chars.MoveNext()){
+                    if (chars.MoveNext())
+                    {
                         newValue.Append(chars.Current);
                     }
                     continue;
