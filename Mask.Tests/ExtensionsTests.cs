@@ -11,6 +11,9 @@ namespace Mask.Tests
         [InlineData("12356978945", "123.569.789-45", "999.999.999-99")]
         [InlineData("1234567890", "1234 5678-90", "AAAA 0000-SS")]
         [InlineData("1234", "OOOO", "OOOO")]
+        [InlineData("1234", "1234", "")]
+        [InlineData("1234", "1234", " ")]
+        [InlineData("1234", "1234", null)]
         public void Should_Make_Mask(string value, string expected, string mask)
         {
             Assert.Equal(expected, value.ToMasked(mask));
